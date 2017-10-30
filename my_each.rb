@@ -8,4 +8,4 @@ def my_each(array)
   else puts "No block given!"
 end
 
-my_each {|n| n}
+my_each {|n| puts n}
