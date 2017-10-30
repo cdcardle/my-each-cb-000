@@ -10,4 +10,6 @@ def my_each(array)
   end
 end
 
-my_each(array) {|n| puts n}
+my_each(array) do |n|
+  puts "#{n}"
+end
