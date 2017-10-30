@@ -10,6 +10,6 @@ def my_each(array)
   end
 end
 
-array.my_each do |n|
+my_each(i) do |n|
   puts "#{n}"
 end
