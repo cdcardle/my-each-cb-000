@@ -2,7 +2,7 @@ def my_each(array)
   if block_given?
     i = 0
     while i < array.size
-      yield
+      yield(array)
       i += 1
     end
   else puts "No block given!"
