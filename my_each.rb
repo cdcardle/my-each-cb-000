@@ -1,7 +1,7 @@
 def my_each(array)
   if block_given?
     i = 0
-    while i < array.size
+    while i < array.length
       yield(array)
       i += 1
     end
@@ -9,4 +9,4 @@ def my_each(array)
   end
 end
 
-my_each {|n| puts n}
+my_each(array) {|n| puts n}
